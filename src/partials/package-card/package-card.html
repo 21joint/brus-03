@@ -1,59 +1,59 @@
+<% const products = require('../../products') %>
 <div class="py-3">
-    <div class="container-fluid">
-        <div class="row">
-            <% for(let i=0;i<products.length;i++){ %>
-                <div class="col-sm-4">
-                <div class="package-card bg-white">
-                    <div>
-                        <a href="https://experience.visithouston.com/checkout/3/visit-houston/8/houston-marketplace/deal/1122/30-day-houston-museum-pass">
-                            <div class="package-card--image"
-                                 style="background-image: url(https://res.cloudinary.com/bandwango/image/upload/c_fit,w_400/omaoqs71reziyxpno4gb);"></div>
-                        </a></div>
-                    <div class="package-card--info">
+  <div class="container-fluid">
+    <div class="row">
+      <% for(let i = 0; i < products.length; i++) { %>
+      <div class="col-sm-4">
+        <div class="package-card bg-white">
+          <div>
+            <a href="https://experience.visithouston.com/checkout/3/visit-houston/8/houston-marketplace/deal/1122/30-day-houston-museum-pass">
+              <div class="package-card--image"
+                   style="background-image: url(https://res.cloudinary.com/bandwango/image/upload/c_fit,w_400/omaoqs71reziyxpno4gb);"></div>
+            </a></div>
+          <div class="package-card--info">
 
-                        <div class="container-fluid">
-                            <div class="row flex-nowrap">
-                                <div class="col">
-                                    <h4 class="package-card--headline">
-                                        <a href="https://experience.visithouston.com/checkout/3/visit-houston/8/houston-marketplace/deal/1122/30-day-houston-museum-pass"
-                                           style="color:inherit; text-decoration:none;">30-Day Houston Museum Pass</a>
-                                    </h4>
-                                </div>
-                                <div id="price-div-50-2" class="col-auto">
-                                    <h5 class="package-card--price text-uppercase">$49.50 - $64.95</h5>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-12">
-                                    <ul class="package-card--highlights">
-                                        <li>Explore the gems of Houston's Museum District</li>
-                                        <li>
-                                            8 paid museum admissions delivered seamlessly to your phone
-                                        </li>
-                                        <li>
-                                            Exclusive discounts and perks
-                                        </li>
-                                        <li>
-                                            Valid for 30 days after first use
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="package-card--buttons text-center">
-                        <div class="row align-items-center no-gutters justify-content-between">
-                            <div class="col"><a role="button" class="btn btn-default add-to-cart"
-                                                onclick="addToCart('1122', 'deal')">Add to Cart</a></div>
-                            <div class="col"><a
-                                    href="https://experience.visithouston.com/checkout/3/visit-houston/8/houston-marketplace/deal/1122/30-day-houston-museum-pass"
-                                    class="btn btn-default">learn more</a></div>
-                        </div>
-                    </div>
+            <div class="container-fluid">
+              <div class="row flex-nowrap">
+                <div class="col">
+                  <h4 class="package-card--headline">
+                    <a href="https://experience.visithouston.com/checkout/3/visit-houston/8/houston-marketplace/deal/1122/30-day-houston-museum-pass"
+                       style="color:inherit; text-decoration:none;">30-Day Houston Museum Pass</a>
+                  </h4>
                 </div>
+                <div id="price-div-50-2" class="col-auto">
+                  <h5 class="package-card--price text-uppercase">$49.50 - $64.95</h5>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <ul class="package-card--highlights">
+                    <li>Explore the gems of Houston's Museum District</li>
+                    <li>
+                      8 paid museum admissions delivered seamlessly to your phone
+                    </li>
+                    <li>
+                      Exclusive discounts and perks
+                    </li>
+                    <li>
+                      Valid for 30 days after first use
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            } %>
-
+          </div>
+          <div class="package-card--buttons text-center">
+            <div class="row align-items-center no-gutters justify-content-between">
+              <div class="col"><a role="button"
+                                  class="btn btn-default add-to-cart">Оформить заказ</a></div>
+              <div class="col">
+                <a href="https://experience.visithouston.com/checkout/3/visit-houston/8/houston-marketplace/deal/1122/30-day-houston-museum-pass"
+                   class="btn btn-default">learn more</a></div>
+            </div>
+          </div>
         </div>
+      </div>
+      <% } %>
     </div>
+  </div>
 </div>

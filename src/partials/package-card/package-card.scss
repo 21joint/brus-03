@@ -5,10 +5,11 @@
   padding-top: 30px;
   border-top: 1px solid #d0d0d0;
   margin: 30px 0 0;
-  @include media-breakpoint-up(sm){
+  @include media-breakpoint-up(sm) {
     margin: 50px 0 0;
   }
 }
+
 .packages-list--content {
   //min-height: 609px;
   overflow: hidden;
@@ -21,6 +22,7 @@
     }
   }
 }
+
 .packages-list--content .item {
   transition: 0.33s opacity, 0.33s transform;
   -webkit-transition: 0.33s opacity, 0.33s transform;
@@ -29,6 +31,7 @@
   padding: 15px;
   will-change: transform, opacity;
 }
+
 .packages-list--content .item.hidden {
   width: 0;
   height: 0;
@@ -42,6 +45,7 @@
   display: block !important;
   flex: 0;
 }
+
 .package-card {
   position: relative;
   height: 100%;
@@ -60,6 +64,7 @@
     //}
   }
 }
+
 .package-card--image {
   height: 170px;
   background-repeat: no-repeat;
@@ -68,6 +73,7 @@
   background-size: cover;
   background-position: 50% 50%;
 }
+
 .package-card--headline {
   margin: 0 0 10px;
   a {
@@ -80,9 +86,11 @@
     font-size: 30px;
   }
 }
+
 .package-card--image img {
   height: 100%;
 }
+
 .package-card--price {
   //color: #18245d;
   position: relative;
@@ -98,10 +106,8 @@
   @media screen and (min-width: 576px) and (max-width: 991px) {
     font-size: 30px;
   }
-  @include media-breakpoint-up(lg){
-    max-width: 70px;
-  }
 }
+
 .package-card--info {
   position: relative;
   padding: 20px 0;
@@ -111,10 +117,11 @@
     padding-left: 25px;
     padding-right: 25px;
   }
- @include media-breakpoint-down(sm){
+  @include media-breakpoint-down(sm) {
     padding: 30px 0;
   }
 }
+
 .package-card--highlights {
   padding-left: 0;
   list-style-type: none;
@@ -132,18 +139,21 @@
       position: absolute;
       left: 0;
       top: 10px;
-      @include media-breakpoint-between(sm,md){
+      @include media-breakpoint-between(sm, md) {
         top: 12.5px;
       }
     }
   }
 }
+
 .package-short--description {
   margin: 10px 0 0;
 }
+
 .package-card--info section {
   display: block;
 }
+
 .package-card__recently-added {
   position: absolute;
   left: 27px;
@@ -158,15 +168,18 @@
   line-height: 22px;
   text-transform: uppercase;
 }
+
 .package-card__share {
   font-size: 12px;
   line-height: 1;
   margin: 0 0 15px;
 }
+
 .package-card__share span {
   margin-left: 10px;
   color: red;
 }
+
 .package-card--buttons {
   padding: 0 20px 20px;
   .flex-col + .flex-col {
@@ -176,16 +189,19 @@
     padding: 0 25px 25px;
   }
 }
+
 @media screen and (min-width: 576px) {
   .package-card--image {
     height: 277px;
   }
 }
+
 @media screen and (max-width: 575px) {
   .package-card--buttons .btn {
     white-space: nowrap;
   }
 }
+
 @media screen and (min-width: 576px) and (max-width: 991px) {
   .package-card {
     font-size: 22px;
@@ -201,6 +217,7 @@
     font-size: 22px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .package-card--image {
     height: 200px;
