@@ -1,6 +1,6 @@
 <div align="center">
  <p>made by</p>
-        <a href="http://www.21joint.com"><img width="150" height="auto" src="https://rawgit.com/21joint/dnv-header/header_raw/21logo2.svg"></a>
+        <a href="http://www.21joint.com"><img width="150" height="auto" src="https://avatars3.githubusercontent.com/u/37253016?s=400&u=a9f9f95ad0c6e4b40b1433fb8560f39edd73ab39&v=4"></a>
 </div>
 
 # Frontend Webpack Boilerplate (1.0.5)
