@@ -1,0 +1,21 @@
+<%
+const pkg = require('../package.json');
+%>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title><%= require('../package').description %></title>
+</head>
+<body>
+<%= require('html-loader!./partials/header/header.html') %>
+
+<div>
+  <p><%= pkg.contacts.phone1 %></p>
+  <p><%= pkg.contacts.phone1 %></p>
+</div>
+
+<%= require('html-loader!./partials/footer/footer.html') %>
+</body>
+</html>

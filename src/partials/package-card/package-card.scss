@@ -76,6 +76,7 @@
 
 .package-card--headline {
   margin: 0 0 10px;
+  color: white;
   a {
     transition: 0.2s all;
     &:hover {
@@ -89,7 +90,7 @@
 }
 
 .package-card--price {
-  //color: #18245d;
+  color: white;
   position: relative;
   margin-bottom: 0;
   &:before {
@@ -106,7 +107,7 @@
   position: relative;
   padding: 20px 0;
   flex-grow: 1;
-  min-height: 176px;
+  min-height: 120px;
   > .container-fluid {
     padding-left: 25px;
     padding-right: 25px;
@@ -214,7 +215,7 @@
 
 @media screen and (min-width: 768px) {
   .package-card--image {
-    height: 200px;
+    height: 250px;
   }
   //.package-card--info {
   //  height: 305px;

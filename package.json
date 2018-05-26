@@ -58,5 +58,10 @@
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
+  },
+  "contacts": {
+    "address": "",
+    "phone1":"1111",
+    "phone2": "2222"
   }
 }

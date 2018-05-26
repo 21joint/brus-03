@@ -1,0 +1,9 @@
+textarea{
+  resize: none;
+}
+.form-control:focus{
+  border-color: #ced4da;
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 0.1rem #e2e7ec;
+  box-shadow: 0 0 0 0.1rem #e2e7ec;
+}
